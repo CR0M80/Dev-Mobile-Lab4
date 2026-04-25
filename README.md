@@ -62,11 +62,11 @@ https://github.com/user-attachments/assets/7db6420d-1647-413d-a859-ee0998b869ec
 ```xml
 <TextView
     android:id="@+id/textOne"
-    android:text="👋 Fragment One"/>
+    android:text="Fragment One"/>
 
 <Button
     android:id="@+id/btnHello"
-    android:text="Dire bonjour 🚀"/>
+    android:text="Dire bonjour 👋"/>
 ```
 
 👉 Interface simple pour tester les interactions utilisateur.
@@ -132,7 +132,7 @@ btn2.setOnClickListener(v -> replaceFragment(new FragmentTwo(), true));
 
 ```java
 btn.setOnClickListener(v -> {
-    tv.setText("🔥 Bonjour depuis Fragment 1 !");
+    tv.setText("Bonjour depuis Fragment 1 !");
 });
 ```
 
